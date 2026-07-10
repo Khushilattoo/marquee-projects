@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="jobap.css">
+</head>
+<body>
+    <div id="container">
+    
+    <header>
+        <!-- Heading -->
+        <h1>Job Application Form</h1>
+    </header>
+    
+    
+    <!-- Student Form -->
+   <main >
+     <form >
+        <!-- Personal Info -->
+        <fieldset>
+            <legend><strong>Personal Information</strong></legend>
+
+            <label for="name">
+                Name:
+            </label>
+                <input type="text" id="name" placeholder="John Doe" required>
+            <br> <br>
+
+            <label for="email">
+                Email Id:
+            </label>
+            <input type="email" id="email" placeholder="abc@example.com" required>
+            <br><br>
+
+            <label for="telephone">
+                Phone Number:
+            </label>
+            <input type="tel" id="telephone" placeholder="838-4486-364" maxlength="10" required>
+            <br> <br>
+            <label for="dob">
+                Date of birth:
+            </label>
+            <input type="date" id="dob" required>
+        </fieldset>
+        <br>
+
+        <!-- Gender Info -->
+        <fieldset>
+            <legend><strong>Gender Information</strong></legend>
+
+            <input type="radio" id="female" name="genders" required>
+            <label for="female">
+                Female
+            </label>
+            
+            <input type="radio" id="male" name="genders">
+            <label for="male">
+                Male   
+            </label>
+
+            <input type="radio" id="other" name="genders">
+            <label for="other">
+                Others   
+            </label>
+
+        </fieldset>
+        <br>
+
+        <!-- Skills -->
+        <fieldset>
+            <legend><strong>Skills</strong></legend>
+
+            <label >
+               Select Your Skills:
+            </label>
+            <br>
+            
+            <input type="checkbox" id="mern">
+            <label for="mern">MERN</label>
+            <br>
+
+             <input type="checkbox" id="ai">
+            <label for="ai">AI</label>
+            <br>
+
+             <input type="checkbox" id="da">
+            <label for="da">Data Analyst</label>
+            <br>
+
+             <input type="checkbox" id="cn">
+            <label for="cn">Computer Networks</label>
+            <br>
+            
+        </fieldset>
+        <br>
+        <!-- Additional Info -->
+        <fieldset>
+            
+            <legend><strong>Additional Information</strong></legend>
+            <!-- Years of exp -->
+            <label for="exp" >Years of Experience:</label>
+            <select id="exp">
+                <option disabled selected hidden>Select</option>
+                <option > <5 year </option>
+                <option >5-10 years</option>
+                <option >10-20 years</option>
+                <option >20+ years</option>
+
+            </select>
+            <br><br>
+            <!-- Location -->
+            <label for="location">Preffered Location:</label>
+            <select  id="location">
+                <option disabled selected hidden>Select</option>
+                <option value="indb">Indore </option>
+                <option value="st">Surat</option>
+                <option value="brc">Vadodara</option>
+                <option value="adi">Ahemadabad</option>
+            </select>
+            <br> <br>
+            <!-- uploading resume -->
+             <label for="resume">Upload Resume:</label>
+             <input type="file" maxlength="10MB" accept=".pdf,.htm">
+
+        </fieldset>
+        <br>
+        <button type="submit">Submit</button>
+        <br><br>
+        <button type="reset">Reset</button>
+     </form>
+   </main>
+   </div>
+</body>
+</html>

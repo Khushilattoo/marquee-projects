@@ -1,0 +1,76 @@
+ *{
+    margin: 8px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo,.travel{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 10px;
+    
+}
+.logo{
+    background-color: rgb(255, 255, 41);
+}
+
+
+.travel{
+    background-color: rgb(241, 241, 241);
+    
+}
+.location{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 65%;
+}
+
+.mid input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: dodgerblue solid 2px;
+}
+
+.bottom .box{
+    display: inline-block;
+    width: 65px;
+    height: 30px;
+    background-color: slateblue;
+    border-radius: 5px;
+}
+
+.image img{
+    width: 375px;
+    height: 200px;
+    border-radius: 10px;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background-color: goldenrod;
+    background: linear-gradient(to bottom, goldenrod,lightyellow);
+}
+.description, .about, .help{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 17%;
+    
+}
+footer{
+    background-color: black;
+    color: azure;
+    margin-left: 5px;
+    width: 100%;
+}
+.container img{
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-left: 80px;
+    width: 300px;
+    height: 300px;
+
+} 

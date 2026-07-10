@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        
+        .main{
+            border: solid rgb(0, 0, 0) 3px;
+            margin-top: 40px;
+            margin-left: 475px;
+            height: 400px;
+            width: 300px;
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+            border-radius: 20px;
+            background: linear-gradient(to top, rgb(255, 255, 255),darkgrey);
+        }
+        .img {
+            background-image: url("data:image/png;base64,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");
+            border-radius: 50%;
+            height: 120px;
+            width: 120px;
+            box-shadow: 50px;
+        }
+        button{
+            margin-top: 40px;
+            padding: 10px;
+            background-color: rgb(152, 153, 156);
+            border-radius: 10px;
+            border: 2px solid rgb(28, 27, 27);
+        }
+        button:hover{
+            text-decoration: underline grey;
+            background-color: rgb(180, 181, 175);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="head"><h1>Profile</h1></div>
+        <div ><img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH4qvy6_Ny3u5FvO_d5Z0azkMTQkelG9dUX7GmxCDcgQ&s" alt="">
+        </div>
+        <div class="name"><h2>Khushi Lattoo</h2> <p>MERN Developer</p></div>
+        <button > Follow </button>
+
+    </div>
+</body>
+</html>

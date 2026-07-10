@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+            
+        }
+        
+        .nav{
+             background-color: aquamarine;
+             height: 30px;
+        }
+        
+        ul{
+            list-style-type: none;
+            display: flex;
+           justify-content: space-evenly;
+           padding-top: 4px;
+        }
+        
+        .hero{
+            background-color: black;
+            height: 90vh;
+            color: aliceblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .foot{
+            height: 90px;
+            background-color: aquamarine;
+        }
+        
+        .mid{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .emote{
+            position: fixed;
+            bottom: 100px;
+            right:0px;
+            font-size: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="nav">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Product</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+      <div class="hero">
+        <div class="mid">
+            <h2>Welcome to the website</h2>
+            <p>Description</p>
+        </div> 
+        <div class="emote"><p>💬</p></div>
+    </div>
+      <div class="foot"></div>
+</body>
+</html>
