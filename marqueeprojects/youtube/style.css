@@ -1,0 +1,89 @@
+*{
+    margin: 5px;
+    padding: 0;
+}
+.top{
+    vertical-align: top;
+}
+.search{
+    width: 600px;
+    height: 25px;
+    outline: none;
+    border-radius: 30px;
+    padding: 8px 10px;
+    border: 1px lightgrey solid;
+    margin-left: 10%;
+}
+
+.utube{
+    font-weight: 700;
+    margin-left: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+.fa-brands fa-youtube{
+    margin-left: 10px;
+}
+.menu{
+    margin-right: 0px;
+}
+.mic{
+    
+    display: inline-block;
+    background-color: lightgrey;
+    border-radius: 50%;
+    width: 23px;
+    height: 25px;
+    padding: 5px;
+    padding-left: 7px;
+}
+.create{
+    margin-left: 55px;
+    display: inline-block;
+    padding: 2px;
+    width: 90px;
+    background-color: lightgrey;
+    vertical-align: top;
+    border-radius: 20PX;
+}
+.plus, .text{
+    display: inline-block;
+
+}
+.text{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.bell{
+    margin-left: 0px;
+}
+.k{
+    display: inline-block;
+    width: 28px;
+    background-color: rgb(192, 129, 234);
+    border-radius: 50%;
+    height: 30px;
+    padding-left: 5px;
+    vertical-align: middle;
+    padding-top: 2px;
+}
+.box{
+    display: inline-block;
+    background-color: lightgray;
+    width: 73px;
+    height: 30px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+
+.image{
+    display: inline-block;
+}
+.image img{
+    justify-content: space-evenly;
+    margin-left: 40px;
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
